@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e3ea712-04c8-4790-8731-4aaf00ea2f5d">
+  <name>ВКМ_ПраваНаРасчетЗарпалты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права на расчет зарпалты</value>
+  </synonym>
+</mdclass:Role>
