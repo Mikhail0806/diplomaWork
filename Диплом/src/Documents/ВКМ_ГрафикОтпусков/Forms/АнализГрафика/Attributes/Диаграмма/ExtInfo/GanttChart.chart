@@ -21,12 +21,12 @@
     </realExSeriesData>
     <isPointsDesign>true</isPointsDesign>
     <curSeries>-1</curSeries>
-    <chartType>Column</chartType>
+    <chartType>Column3D</chartType>
     <labelsDelimiter>, </labelsDelimiter>
+    <labelsLocation>Auto</labelsLocation>
     <labelsColor xsi:type="core:ColorRef">
       <color>Style.FormTextColor</color>
     </labelsColor>
-    <labelsFont xsi:type="core:AutoFont"/>
     <transparentLabelsBkg>true</transparentLabelsBkg>
     <labelsBorder xsi:type="core:BorderDef">
       <style>Single</style>
@@ -42,10 +42,7 @@
     <lgBorderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
     </lgBorderColor>
-    <chBorder xsi:type="core:BorderDef">
-      <style>Single</style>
-      <width>1</width>
-    </chBorder>
+    <chBorder xsi:type="core:BorderDef"/>
     <chBorderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
     </chBorderColor>
@@ -70,9 +67,6 @@
     <chTxtColor xsi:type="core:ColorRef">
       <color>Style.FormTextColor</color>
     </chTxtColor>
-    <ttlFont xsi:type="core:AutoFont"/>
-    <legFont xsi:type="core:AutoFont"/>
-    <chFont xsi:type="core:AutoFont"/>
     <isShowScale>true</isShowScale>
     <isShowScaleVL>true</isShowScaleVL>
     <isShowSeriesScale>true</isShowSeriesScale>
@@ -83,6 +77,11 @@
       <width>1</width>
       <style>Solid</style>
     </scaleLine>
+    <scaleColor xsi:type="core:ColorDef">
+      <red>169</red>
+      <green>169</green>
+      <blue>169</blue>
+    </scaleColor>
     <isAutoSeriesName>true</isAutoSeriesName>
     <isAutoPointName>true</isAutoPointName>
     <maxSeries>4</maxSeries>
@@ -94,8 +93,6 @@
     <dtHorLines>true</dtHorLines>
     <dtHAlign>Right</dtHAlign>
     <dtKeys>true</dtKeys>
-    <paletteKind>Auto</paletteKind>
-    <legendScrollEnable>true</legendScrollEnable>
     <surfaceColor xsi:type="core:ColorDef">
       <red>169</red>
     </surfaceColor>
@@ -111,21 +108,20 @@
     </gaugeBushColor>
     <autoMaxValue>true</autoMaxValue>
     <autoMinValue>true</autoMinValue>
+    <elementsIsInit>true</elementsIsInit>
     <titleIsInit>true</titleIsInit>
     <legendIsInit>true</legendIsInit>
     <chartIsInit>true</chartIsInit>
     <elementsChart>
-      <left>6.87757909215956E-4</left>
-      <right>0.07702888583218707</right>
+      <right>0.1672</right>
     </elementsChart>
     <elementsLegend>
-      <left>0.9222833562585969</left>
-      <top>0.1330049261083744</top>
-      <bottom>0.80623973727422</bottom>
+      <left>0.8328</left>
+      <top>0.047</top>
     </elementsLegend>
     <elementsTitle>
-      <left>0.83</left>
-      <bottom>0.92</bottom>
+      <left>0.8328</left>
+      <bottom>0.953</bottom>
     </elementsTitle>
     <borderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
@@ -136,9 +132,9 @@
     </border>
     <splineStrain>95</splineStrain>
     <translucenceMode>Auto</translucenceMode>
-    <funnelNeckHeightPercent>10.0</funnelNeckHeightPercent>
-    <funnelNeckWidthPercent>10.0</funnelNeckWidthPercent>
-    <funnelGapSumPercent>3.0</funnelGapSumPercent>
+    <funnelNeckHeightPercent>0.1</funnelNeckHeightPercent>
+    <funnelNeckWidthPercent>0.1</funnelNeckWidthPercent>
+    <funnelGapSumPercent>0.03</funnelGapSumPercent>
     <multiStageLinkLine>
       <width>1</width>
       <style>Solid</style>
@@ -208,8 +204,6 @@
     <pointsReferenceLines/>
     <valuesReferenceBands/>
     <pointsReferenceBands/>
-    <legendPlacement>UseCoordinates</legendPlacement>
-    <plotAreaPlacement>UseCoordinates</plotAreaPlacement>
     <additionalValuesScale>
       <titleArea>
         <location>Auto</location>
@@ -232,8 +226,7 @@
   </chart>
   <points>
     <value>
-      <baseData>4294901761</baseData>
-      <font xsi:type="core:AutoFont"/>
+      <baseData>4294963201</baseData>
     </value>
     <contentCacheItem>
       <mainColor xsi:type="core:ColorDef"/>
@@ -242,20 +235,19 @@
     <autoText>true</autoText>
   </points>
   <series>
-    <value>
-      <baseData>4294901761</baseData>
+    <value xsi:type="ganttchart:PointDimensionValue">
+      <baseData>4294963201</baseData>
     </value>
     <contentCacheItem>
       <mainColor xsi:type="core:ColorDef"/>
       <secondColor xsi:type="core:ColorDef"/>
-      <hatchBetweenIntervalsColor xsi:type="core:ColorDef"/>
     </contentCacheItem>
     <autoText>true</autoText>
   </series>
   <drawEmpty>true</drawEmpty>
   <timeScale>
     <levels>
-      <measure>Month</measure>
+      <measure>Day</measure>
       <interval>1</interval>
       <show>true</show>
       <line>
@@ -267,10 +259,7 @@
         <green>192</green>
         <blue>192</blue>
       </scaleColor>
-      <format>
-        <key>ru</key>
-        <value>ДФ='ММММ yyyy'</value>
-      </format>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
       <labels/>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
@@ -285,9 +274,9 @@
   <fixedVariantMeasure>Month</fixedVariantMeasure>
   <fixedVariantInterval>1</fixedVariantInterval>
   <autoFullInterval>true</autoFullInterval>
-  <fullIntervalBegin>2025-07-01T00:00:00</fullIntervalBegin>
-  <fullIntervalEnd>2025-07-31T23:59:59</fullIntervalEnd>
-  <visualBegin>2025-07-01T00:00:00</visualBegin>
+  <fullIntervalBegin>2016-12-31T00:00:00</fullIntervalBegin>
+  <fullIntervalEnd>2017-01-10T23:59:59</fullIntervalEnd>
+  <visualBegin>2016-12-31T00:00:00</visualBegin>
   <intervalDrawType>Gradient</intervalDrawType>
   <noneVariantChars>3.0</noneVariantChars>
   <noneVariantMeasure>Day</noneVariantMeasure>
@@ -301,9 +290,7 @@
     <collection/>
   </backIntervals>
   <linksColor xsi:type="core:ColorDef">
-    <red>85</red>
-    <green>85</green>
-    <blue>85</blue>
+    <blue>128</blue>
   </linksColor>
   <linksLine>
     <width>1</width>

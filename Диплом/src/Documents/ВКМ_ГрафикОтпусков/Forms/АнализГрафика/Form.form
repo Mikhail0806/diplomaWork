@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Button">
     <name>Закрыть</name>
-    <id>17</id>
+    <id>23</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -10,7 +10,7 @@
     </userVisible>
     <extendedTooltip>
       <name>ЗакрытьРасширеннаяПодсказка</name>
-      <id>18</id>
+      <id>24</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -70,7 +70,7 @@
         <titleLocation>None</titleLocation>
         <autoCommandBar>
           <name>ДиаграммаТаблицаКоманднаяПанель</name>
-          <id>6</id>
+          <id>5</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
@@ -99,10 +99,10 @@
         </searchStringAddition>
         <viewStatusAddition>
           <name>ДиаграммаТаблицаСостояниеПросмотра</name>
-          <id>11</id>
+          <id>14</id>
           <extendedTooltip>
             <name>ДиаграммаТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>13</id>
+            <id>16</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -112,7 +112,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДиаграммаТаблицаСостояниеПросмотраКонтекстноеМеню</name>
-            <id>12</id>
+            <id>15</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
@@ -123,10 +123,10 @@
         </viewStatusAddition>
         <searchControlAddition>
           <name>ДиаграммаТаблицаУправлениеПоиском</name>
-          <id>14</id>
+          <id>11</id>
           <extendedTooltip>
             <name>ДиаграммаТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>16</id>
+            <id>13</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -136,7 +136,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДиаграммаТаблицаУправлениеПоискомКонтекстноеМеню</name>
-            <id>15</id>
+            <id>12</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
@@ -157,7 +157,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ДиаграммаТаблицаКонтекстноеМеню</name>
-          <id>5</id>
+          <id>6</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>Tree</representation>
@@ -192,10 +192,12 @@
       <verticalStretch>true</verticalStretch>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
@@ -253,10 +255,6 @@
       <value>Закрыть</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Закрыть</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>

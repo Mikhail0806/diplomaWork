@@ -94,7 +94,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="843c9896-91ab-4ed0-8270-1921827ec899">
+  <forms uuid="e6358272-1bb5-4129-8017-aaba6686b0b2">
     <name>АнализГрафика</name>
     <synonym>
       <key>ru</key>
