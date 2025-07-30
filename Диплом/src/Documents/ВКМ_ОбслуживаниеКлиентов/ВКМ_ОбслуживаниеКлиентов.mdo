@@ -59,10 +59,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.ВКМ_ДатаНачалаДоговора</name>
-      <field>Document.ВКМ_ОбслуживаниеКлиентов.Attribute.Клиент</field>
-    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
