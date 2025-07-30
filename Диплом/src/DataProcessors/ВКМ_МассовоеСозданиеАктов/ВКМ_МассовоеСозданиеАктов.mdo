@@ -36,22 +36,6 @@
       <key>ru</key>
       <value>Данные об договорах и документах</value>
     </synonym>
-    <attributes uuid="2a33444d-a9a0-44de-9b13-3cadfb3d077e">
-      <name>Дата</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:UndefinedValue"/>
-    </attributes>
     <attributes uuid="5d9ec0d6-fda8-4430-baea-c55f810d9eb9">
       <name>Договор</name>
       <synonym>
