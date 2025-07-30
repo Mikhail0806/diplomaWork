@@ -40,7 +40,7 @@
       <value>Клиент</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Организации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
