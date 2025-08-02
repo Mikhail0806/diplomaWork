@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Button">
+    <name>Закрыть</name>
+    <id>23</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗакрытьРасширеннаяПодсказка</name>
+      <id>24</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.Закрыть</commandName>
+    <representation>Auto</representation>
+    <defaultButton>true</defaultButton>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
   <items xsi:type="form:FormField">
-    <name>Диграмма</name>
+    <name>Диаграмма</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -12,7 +39,7 @@
       <segments>Диаграмма</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ДиграммаРасширеннаяПодсказка</name>
+      <name>ДиаграммаРасширеннаяПодсказка</name>
       <id>3</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -22,7 +49,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДиграммаКонтекстноеМеню</name>
+      <name>ДиаграммаКонтекстноеМеню</name>
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -33,7 +60,7 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:GanttChartFieldExtInfo">
       <autoTable>
-        <name>ДиграммаТаблица</name>
+        <name>ДиаграммаТаблица</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -42,16 +69,16 @@
         </userVisible>
         <titleLocation>None</titleLocation>
         <autoCommandBar>
-          <name>ДиграммаТаблицаКоманднаяПанель</name>
+          <name>ДиаграммаТаблицаКоманднаяПанель</name>
           <id>5</id>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
-          <name>ДиграммаТаблицаСтрокаПоиска</name>
+          <name>ДиаграммаТаблицаСтрокаПоиска</name>
           <id>8</id>
           <extendedTooltip>
-            <name>ДиграммаТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
+            <name>ДиаграммаТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
             <id>10</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -61,20 +88,20 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДиграммаТаблицаСтрокаПоискаКонтекстноеМеню</name>
+            <name>ДиаграммаТаблицаСтрокаПоискаКонтекстноеМеню</name>
             <id>9</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДиграммаТаблица</source>
+          <source>ДиаграммаТаблица</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchStringAddition>
         <viewStatusAddition>
-          <name>ДиграммаТаблицаСостояниеПросмотра</name>
+          <name>ДиаграммаТаблицаСостояниеПросмотра</name>
           <id>14</id>
           <extendedTooltip>
-            <name>ДиграммаТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>ДиаграммаТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>16</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -84,21 +111,21 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДиграммаТаблицаСостояниеПросмотраКонтекстноеМеню</name>
+            <name>ДиаграммаТаблицаСостояниеПросмотраКонтекстноеМеню</name>
             <id>15</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДиграммаТаблица</source>
+          <source>ДиаграммаТаблица</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
-          <name>ДиграммаТаблицаУправлениеПоиском</name>
+          <name>ДиаграммаТаблицаУправлениеПоиском</name>
           <id>11</id>
           <extendedTooltip>
-            <name>ДиграммаТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
+            <name>ДиаграммаТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
             <id>13</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -108,18 +135,18 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДиграммаТаблицаУправлениеПоискомКонтекстноеМеню</name>
+            <name>ДиаграммаТаблицаУправлениеПоискомКонтекстноеМеню</name>
             <id>12</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДиграммаТаблица</source>
+          <source>ДиаграммаТаблица</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ДиграммаТаблицаРасширеннаяПодсказка</name>
+          <name>ДиаграммаТаблицаРасширеннаяПодсказка</name>
           <id>7</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -129,7 +156,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДиграммаТаблицаКонтекстноеМеню</name>
+          <name>ДиаграммаТаблицаКонтекстноеМеню</name>
           <id>6</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -165,35 +192,10 @@
       <verticalStretch>true</verticalStretch>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>ФормаЗакрытьДиаграмму</name>
-      <id>17</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаЗакрытьДиаграммуРасширеннаяПодсказка</name>
-        <id>18</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.ЗакрытьДиаграмму</commandName>
-      <representation>Auto</representation>
-      <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -211,12 +213,30 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DocumentObject.ВКМ_ГрафикОтпусков</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
     <name>Диаграмма</name>
     <title>
       <key>ru</key>
       <value>Диаграмма</value>
     </title>
-    <id>1</id>
+    <id>2</id>
     <valueType>
       <types>GanttChart</types>
     </valueType>
@@ -229,10 +249,10 @@
     <extInfo xsi:type="form:GanttChartExtInfo"/>
   </attributes>
   <formCommands>
-    <name>ЗакрытьДиаграмму</name>
+    <name>Закрыть</name>
     <title>
       <key>ru</key>
-      <value>Закрыть диаграмму</value>
+      <value>Закрыть</value>
     </title>
     <id>1</id>
     <use>
@@ -249,4 +269,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

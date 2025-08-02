@@ -113,16 +113,11 @@
     <legendIsInit>true</legendIsInit>
     <chartIsInit>true</chartIsInit>
     <elementsChart>
-      <left>0.0027002700270027003</left>
-      <right>0.16471647164716474</right>
-      <top>-0.0036991368680641184</top>
-      <bottom>0.0036991368680641123</bottom>
+      <right>0.1672</right>
     </elementsChart>
     <elementsLegend>
-      <left>-0.3645364536453645</left>
-      <right>0.03150315031503148</right>
-      <top>0.007398273736128237</top>
-      <bottom>-0.018495684340320562</bottom>
+      <left>0.8328</left>
+      <top>0.047</top>
     </elementsLegend>
     <elementsTitle>
       <left>0.8328</left>
@@ -209,7 +204,6 @@
     <pointsReferenceLines/>
     <valuesReferenceBands/>
     <pointsReferenceBands/>
-    <plotAreaPlacement>EmptySpace</plotAreaPlacement>
     <additionalValuesScale>
       <titleArea>
         <location>Auto</location>
@@ -253,28 +247,6 @@
   <drawEmpty>true</drawEmpty>
   <timeScale>
     <levels>
-      <measure>Year</measure>
-      <interval>1</interval>
-      <show>true</show>
-      <line>
-        <width>1</width>
-        <style>Dotted</style>
-      </line>
-      <labels/>
-      <showPereodicalLabels>true</showPereodicalLabels>
-    </levels>
-    <levels>
-      <measure>Month</measure>
-      <interval>1</interval>
-      <show>true</show>
-      <line>
-        <width>1</width>
-        <style>Dotted</style>
-      </line>
-      <labels/>
-      <showPereodicalLabels>true</showPereodicalLabels>
-    </levels>
-    <levels>
       <measure>Day</measure>
       <interval>1</interval>
       <show>true</show>
@@ -287,6 +259,7 @@
         <green>192</green>
         <blue>192</blue>
       </scaleColor>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
       <labels/>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
@@ -297,15 +270,15 @@
       <color>Style.FormTextColor</color>
     </textColor>
   </timeScale>
-  <keepScaleVariant>Period</keepScaleVariant>
-  <fixedVariantMeasure>Year</fixedVariantMeasure>
+  <keepScaleVariant>AllData</keepScaleVariant>
+  <fixedVariantMeasure>Month</fixedVariantMeasure>
   <fixedVariantInterval>1</fixedVariantInterval>
   <autoFullInterval>true</autoFullInterval>
   <fullIntervalBegin>2016-12-31T00:00:00</fullIntervalBegin>
   <fullIntervalEnd>2017-01-10T23:59:59</fullIntervalEnd>
   <visualBegin>2016-12-31T00:00:00</visualBegin>
   <intervalDrawType>Gradient</intervalDrawType>
-  <noneVariantChars>5.0</noneVariantChars>
+  <noneVariantChars>3.0</noneVariantChars>
   <noneVariantMeasure>Day</noneVariantMeasure>
   <verticalScrollEnable>true</verticalScrollEnable>
   <outboundColor xsi:type="core:ColorDef">

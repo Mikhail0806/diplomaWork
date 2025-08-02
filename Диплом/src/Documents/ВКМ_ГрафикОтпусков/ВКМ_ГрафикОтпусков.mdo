@@ -95,6 +95,15 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="e6358272-1bb5-4129-8017-aaba6686b0b2">
+    <name>АнализГрафикаа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ графикаа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c5356a23-f181-4eba-af9f-12f2d06e1a09">
     <name>АнализГрафика</name>
     <synonym>
       <key>ru</key>
@@ -156,6 +165,20 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a88d70e5-afb7-4d3f-aa42-4322b18c4e53">
+      <name>ДнейОтпуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней отпуска</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
