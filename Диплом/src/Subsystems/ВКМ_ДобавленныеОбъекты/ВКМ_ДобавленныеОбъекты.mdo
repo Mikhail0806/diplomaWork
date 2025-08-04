@@ -35,10 +35,9 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>InformationRegister.ВКМ_ГрафикОтпусков</content>
-  <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>AccumulationRegister.ВКМ_УчетОтпуска</content>
-  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов1</content>
   <content>AccumulationRegister.ВКМ_ВыполененныеРаботы</content>
-  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
-  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков1</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
 </mdclass:Subsystem>

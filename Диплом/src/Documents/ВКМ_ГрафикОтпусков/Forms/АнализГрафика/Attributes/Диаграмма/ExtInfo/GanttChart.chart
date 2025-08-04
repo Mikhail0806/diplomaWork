@@ -113,16 +113,16 @@
     <legendIsInit>true</legendIsInit>
     <chartIsInit>true</chartIsInit>
     <elementsChart>
-      <left>0.0027002700270027003</left>
-      <right>0.16471647164716474</right>
-      <top>-0.0036991368680641184</top>
-      <bottom>0.0036991368680641123</bottom>
+      <left>0.014492753623188406</left>
+      <right>0.15217391304347827</right>
+      <top>0.20715166461159062</top>
+      <bottom>-0.20715166461159074</bottom>
     </elementsChart>
     <elementsLegend>
-      <left>-0.3645364536453645</left>
-      <right>0.03150315031503148</right>
-      <top>0.007398273736128237</top>
-      <bottom>-0.018495684340320562</bottom>
+      <left>0.6366459627329193</left>
+      <right>-0.968944099378882</right>
+      <top>0.3970406905055487</top>
+      <bottom>-0.40813810110974114</bottom>
     </elementsLegend>
     <elementsTitle>
       <left>0.8328</left>

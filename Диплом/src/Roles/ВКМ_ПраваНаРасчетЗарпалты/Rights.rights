@@ -671,7 +671,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ВКМ_РасчётыССотрудниками</name>
+		<name>Report.ВКМ_РасчетыССотрудниками</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -705,17 +705,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.ВКМ_ВыработкаСпециалистов</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
