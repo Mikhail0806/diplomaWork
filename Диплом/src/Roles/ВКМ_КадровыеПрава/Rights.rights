@@ -143,7 +143,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ВКМ_РасходЗапланированныхОтпусков1</name>
+		<name>Report.ВКМ_РасходЗапланированныхОтпусков3</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
