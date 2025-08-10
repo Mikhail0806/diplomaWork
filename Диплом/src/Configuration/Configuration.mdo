@@ -1311,7 +1311,7 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.ВКМ_РасчетыССотрудниками</reports>
   <reports>Report.ВКМ_РасходЗапланированныхОтпусков3</reports>
-  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов3</reports>
   <reports>Report.ВКМ_ВыработкаСпециалистов1</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>

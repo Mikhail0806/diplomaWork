@@ -19,7 +19,7 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
-  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов3</content>
   <content>AccumulationRegister.ВКМ_ВыполененныеРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов1</content>
 </mdclass:Subsystem>
