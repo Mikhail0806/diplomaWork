@@ -30,8 +30,4 @@
 			</dcscor:item>
 		</appearance>
 	</item>
-	<item>
-		<selection/>
-		<filter/>
-	</item>
 </ConditionalAppearance>

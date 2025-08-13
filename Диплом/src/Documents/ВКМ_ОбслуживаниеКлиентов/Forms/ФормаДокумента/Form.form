@@ -217,10 +217,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <handlers>
-            <event>Opening</event>
-            <name>ВремяНачалаРаботОткрытие</name>
-          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
