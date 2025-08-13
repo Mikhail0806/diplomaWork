@@ -94,10 +94,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <handlers>
-      <event>OnChange</event>
-      <name>КатегорияСотрудниковПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>КатегорияСотрудниковРасширеннаяПодсказка</name>
       <id>15</id>
